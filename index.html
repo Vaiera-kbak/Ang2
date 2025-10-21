@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siberian 200 Zoo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        header {
+            background-color: #2c5530;
+            color: white;
+            padding: 20px 0;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        nav ul li {
+            margin-left: 20px;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        
+        .main-content {
+            display: flex;
+            margin: 30px 0;
+            gap: 30px;
+        }
+        
+        .content-block {
+            flex: 1;
+            background-color: white;
+            border-radius: 8px;
+            padding: 25px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .content-block h2 {
+            color: #2c5530;
+            margin-bottom: 15px;
+            font-size: 22px;
+        }
+        
+        .content-block p {
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+        
+        footer {
+            background-color: #2c5530;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 30px;
+        }
+        
+        @media (max-width: 768px) {
+            .main-content {
+                flex-direction: column;
+            }
+            
+            .header-top {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            nav ul {
+                margin-top: 15px;
+                justify-content: center;
+            }
+            
+            nav ul li {
+                margin: 0 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-top">
+                <div class="logo">Siberian 200</div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Donate</a></li>
+                        <li><a href="#">Gift shop</a></li>
+                        <li><a href="#">Photo gallery</a></li>
+                        <li><a href="#">Zoo pictures</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">About the Zoo</a></li>
+                        <li><a href="#">Attractions</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="main-content">
+            <div class="content-block">
+                <h2>Adopt an animal</h2>
+                <p>At the Severian Zoo, you can take some of the animals home with you</p>
+            </div>
+            
+            <div class="content-block">
+                <h2>Volunteer opportunities</h2>
+                <p>Be a Volunteer at our Zoo</p>
+                <p>An after-school programme for teens aged 13+</p>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Siberian 200 Zoo. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
